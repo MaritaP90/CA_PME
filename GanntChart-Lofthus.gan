@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Lofthus frukt &amp; saft" company="" webLink="http://" view-date="2018-06-20" view-index="0" gantt-divider-location="227" resource-divider-location="300" version="2.8.8" locale="nb_NO">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Navn" width="104" order="0"/>
+        <field id="tpd4" name="Startdato" width="28" order="1"/>
+        <field id="tpd5" name="Sluttdato" width="50" order="2"/>
+        <field id="tpd13" name="Deltakere" width="39" order="3"/>
+        <timeline><![CDATA[0]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0033 #66ff66 #ff6633]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Navn" width="209" order="0"/>
+        <field id="1" name="Standardrolle" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Project Management" color="#8cb6ce" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2018-06-20" duration="5" complete="0" thirdDate="2018-06-20" thirdDate-constraint="1" priority="2" expand="true">
+            <notes><![CDATA[Customer contact, proposal and contract
+]]></notes>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="PM + Customer Contact" color="#8cb6ce" meeting="false" start="2018-06-25" duration="15" complete="0" thirdDate="2018-06-25" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="16" name="Project Start Initial Meeting" color="#ff0033" meeting="true" start="2018-06-20" duration="0" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="24" name="Project Planning" color="#8cb6ce" meeting="false" start="2018-06-20" duration="2" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Identifying goals, Needs assessment, project planning]]></notes>
+        </task>
+        <task id="26" name="Research" color="#8cb6ce" meeting="false" start="2018-06-21" duration="1" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Strategic Planning" color="#8cb6ce" meeting="false" start="2018-06-22" duration="3" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Content Planning" color="#8cb6ce" meeting="false" start="2018-06-23" duration="2" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="32" name="Site Outline" color="#ff0033" meeting="true" start="2018-06-24" duration="0" complete="0" thirdDate="2018-06-24" thirdDate-constraint="0" expand="true"/>
+        <task id="34" name="SITE STRUCTURE" color="#8cb6ce" meeting="false" start="2018-06-25" duration="2" complete="0" thirdDate="2018-06-26" thirdDate-constraint="0" expand="true"/>
+        <task id="36" name="MOODBORD, STYLE TILES" color="#ff0033" meeting="true" start="2018-06-27" duration="0" complete="0" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="TEXT CONTENT DEVELOPMENT" color="#8cb6ce" meeting="false" start="2018-06-27" duration="3" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="PHOTOSHOTING" color="#8cb6ce" meeting="false" start="2018-06-27" duration="3" complete="0" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Pictures for "promote & sell" and production processes]]></notes>
+        </task>
+        <task id="47" name="WIREFRAMES" color="#8cb6ce" meeting="false" start="2018-06-30" duration="1" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="49" name="PHOTOSHOOTING" color="#8cb6ce" meeting="false" start="2018-06-30" duration="2" complete="0" thirdDate="2018-06-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[SHOOTING FOR " ABOUT US"]]></notes>
+        </task>
+        <task id="54" name="UX/UI PLANNING AND TESTING" color="#8cb6ce" meeting="false" start="2018-07-01" duration="2" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="58" name="CODING, INTEGRATION AND SITE BUILD" color="#8cb6ce" meeting="false" start="2018-06-30" duration="7" complete="0" thirdDate="2018-06-30" thirdDate-constraint="0" expand="true"/>
+        <task id="60" name="UX/UI TESTING" color="#8cb6ce" meeting="false" start="2018-07-05" duration="1" complete="0" thirdDate="2018-07-07" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="CROSS PLATFORM AND BROWSER TESTING" color="#8cb6ce" meeting="false" start="2018-07-06" duration="2" complete="0" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true"/>
+        <task id="70" name="VALIDATING" color="#8cb6ce" meeting="false" start="2018-07-07" duration="1" complete="0" thirdDate="2018-07-07" thirdDate-constraint="0" expand="true"/>
+        <task id="73" name="REFINEMENT" color="#8cb6ce" meeting="false" start="2018-07-08" duration="1" complete="0" thirdDate="2018-07-09" thirdDate-constraint="0" expand="true"/>
+        <task id="77" name="LAUNCH" color="#ff0033" meeting="true" start="2018-07-09" duration="0" complete="0" thirdDate="2018-07-09" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="7" name="Project Manager" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Content Developer" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Designer" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Developer" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Copywriter" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Photographer" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="73" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="77" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="77" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
